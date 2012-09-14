@@ -36,6 +36,6 @@ let mapleader=","
 let g:mapleader=","
 
 " nmap <leader>ss :source ~/.vimrc<CR>
-nmap <leader>n :NERDTree<CR>
+nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>cw :cw<CR>
 
