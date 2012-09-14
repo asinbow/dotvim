@@ -9,9 +9,18 @@ filetype on
 filetype indent on
 filetype plugin on
 
+let g:solarized_termcolors= 256
+" let g:solarized_termtrans = 1
+" let g:solarized_degrade = 1
+" let g:solarized_bold = 1
+" let g:solarized_underline = 1
+" let g:solarized_italic = 1
+" let g:solarized_contrast = "normal"
+" let g:solarized_visibility= "normal"
 set background=dark
-
 colorscheme solarized
+
+call togglebg#map("<F5>") " for solarized togglebg
 
 set tabstop=4 shiftwidth=4 softtabstop=4
 set expandtab
@@ -29,6 +38,4 @@ let g:mapleader=","
 " nmap <leader>ss :source ~/.vimrc<CR>
 nmap <leader>n :NERDTree<CR>
 nmap <leader>cw :cw<CR>
-
-
 
