@@ -1,3 +1,14 @@
+
+if has('win32')
+    let $MYVIM_ROOT=$HOME."/vimfiles"
+elseif has('mac')
+    let $MYVIM_ROOT=$HOME."/.vim"
+elseif has('unix')
+    let $MYVIM_ROOT=$HOME."/.vim"
+end
+
+
+
 set t_Co=256
 
 call pathogen#infect()
@@ -26,6 +37,9 @@ set tabstop=4 shiftwidth=4 softtabstop=4
 set expandtab
 set autoindent
 set number
+set hlsearch
+set undofile
+set undodir=$MYVIM_ROOT/.undofiles
 
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
