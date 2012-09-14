@@ -18,13 +18,17 @@ set expandtab
 set autoindent
 set number
 
-nmap <C-h> <C-w><C-h>
-nmap <C-j> <C-w><C-j>
-nmap <C-k> <C-w><C-k>
-nmap <C-l> <C-w><C-l>
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
 let mapleader=","
 let g:mapleader=","
 
+" nmap <leader>ss :source ~/.vimrc<CR>
 nmap <leader>n :NERDTree<CR>
 nmap <leader>cw :cw<CR>
+
+
+
