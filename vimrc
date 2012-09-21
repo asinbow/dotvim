@@ -39,7 +39,12 @@ set autoindent
 set number
 set hlsearch
 set undofile
-set undodir=$MYVIM_ROOT/.undofiles
+set undodir=$MYVIM_ROOT."/.undofiles"
+
+set mouse=nv       
+set mousehide      
+set ttymouse=xterm2
+set ttyfast        
 
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
@@ -52,4 +57,5 @@ let g:mapleader=","
 " nmap <leader>ss :source ~/.vimrc<CR>
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>cw :cw<CR>
+
 
