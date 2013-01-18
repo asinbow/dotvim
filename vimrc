@@ -53,4 +53,5 @@ let g:mapleader=","
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>cw :cw<CR>
 
-
+set textwidth=60
+set colorcolumn=+1,+21
