@@ -20,6 +20,10 @@ filetype on
 filetype indent on
 filetype plugin on
 
+let NERDTreeDirArrows=0
+let Tlist_Show_One_File = 1
+let Tlist_Use_Right_Window = 1
+
 let g:solarized_termcolors= 256
 " let g:solarized_termtrans = 1
 " let g:solarized_degrade = 1
@@ -38,8 +42,8 @@ set expandtab
 set autoindent
 set number
 set hlsearch
-set undofile
-set undodir=$MYVIM_ROOT/.undofiles
+" set undofile
+" set undodir=$MYVIM_ROOT/.undofiles
 
 set mouse=nv       
 set mousehide      
@@ -52,6 +56,7 @@ let g:mapleader=","
 " nmap <leader>ss :source ~/.vimrc<CR>
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>cw :cw<CR>
+nmap <leader>tl :TlistOpen<CR>
 
-set textwidth=60
-set colorcolumn=+1,+21
+" set textwidth=60
+" set colorcolumn=+1,+21

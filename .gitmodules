@@ -28,12 +28,15 @@
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
-[submodule "bundle/vim-golang"]
-	path = bundle/vim-golang
-	url = https://github.com/jnwhiteh/vim-golang.git
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = git://github.com/groenewege/vim-less.git
 [submodule "bundle/vim-zencoding"]
 	path = bundle/vim-zencoding
 	url = git://github.com/mattn/zencoding-vim.git
+[submodule "bundle/vim-golang"]
+	path = bundle/vim-golang
+	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
