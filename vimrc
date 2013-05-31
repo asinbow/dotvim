@@ -7,7 +7,11 @@ elseif has('unix')
     let $MYVIM_ROOT=$HOME."/.vim"
 end
 
-
+" encoding
+set fenc=utf-8
+set fencs=utf-8,gb18030,gbk,gb2312,usc-bom,euc-jp,cp936
+" set enc=utf-8
+let &termencoding=&encoding
 
 set t_Co=256
 
@@ -23,6 +27,7 @@ filetype plugin on
 let NERDTreeDirArrows=0
 let Tlist_Show_One_File = 1
 let Tlist_Use_Right_Window = 1
+" let NERDTreeDirArrows=0
 
 let g:solarized_termcolors= 256
 " let g:solarized_termtrans = 1
