@@ -7,6 +7,16 @@ elseif has('unix')
     let $MYVIM_ROOT=$HOME."/.vim"
 end
 
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
+
 " encoding
 set fenc=utf-8
 set fencs=utf-8,gb18030,gbk,gb2312,usc-bom,euc-jp,cp936
