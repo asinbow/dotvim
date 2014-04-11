@@ -17,11 +17,13 @@ if has("gui_running")
   endif
 endif
 
+set encoding=utf-8
 " encoding
 set fenc=utf-8
 set fencs=utf-8,gb18030,gbk,gb2312,usc-bom,euc-jp,cp936
 " set enc=utf-8
 let &termencoding=&encoding
+language messages zh_CN.utf-8
 
 set t_Co=256
 
