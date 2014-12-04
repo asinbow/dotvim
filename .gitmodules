@@ -40,6 +40,3 @@
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
 	url = git://github.com/jnwhiteh/vim-golang.git
-[submodule "bundle/vim-glsl"]
-	path = bundle/vim-glsl
-	url = git@github.com:tikhomirov/vim-glsl.git
