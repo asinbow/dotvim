@@ -52,3 +52,6 @@
 [submodule "less"]
 	path = less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
