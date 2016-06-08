@@ -62,10 +62,10 @@ set hlsearch
 " set undofile
 " set undodir=$MYVIM_ROOT/.undofiles
 
-set mouse=nv       
-set mousehide      
+set mouse=nv
+set mousehide
 set ttymouse=xterm2
-set ttyfast        
+set ttyfast
 
 let mapleader=","
 let g:mapleader=","
@@ -77,3 +77,8 @@ nmap <leader>tl :TlistOpen<CR>
 
 " set textwidth=60
 " set colorcolumn=+1,+21
+
+let g:javascript_enable_domhtmlcss = 1
+
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
