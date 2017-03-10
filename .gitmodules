@@ -55,3 +55,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/kotlin"]
+	path = bundle/kotlin
+	url = https://github.com/udalov/kotlin-vim.git
