@@ -61,3 +61,12 @@
 [submodule "bundle/latex"]
 	path = bundle/latex
 	url = https://github.com/vim-latex/vim-latex.git
+[submodule "bundle/kotlin"]
+	path = bundle/kotlin
+	url = https://github.com/udalov/kotlin-vim.git
+[submodule "bundle/Dockerfile"]
+	path = bundle/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/typescript"]
+	path = bundle/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
