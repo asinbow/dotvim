@@ -55,3 +55,9 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/tex"]
+	path = bundle/tex
+	url = https://github.com/lervag/vimtex.git
+[submodule "bundle/latex"]
+	path = bundle/latex
+	url = https://github.com/vim-latex/vim-latex.git
